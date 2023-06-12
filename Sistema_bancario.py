@@ -52,6 +52,7 @@ while True:
         for i in v_deposito:
             print(f"Depósito ---------- R$ {i:.2f}")
         print(f"Saldo ------------- R$ {v_saldo:.2f}")
+        
     elif v_opcao == "4":
         break
     else:
