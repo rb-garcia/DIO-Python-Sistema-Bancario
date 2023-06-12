@@ -26,7 +26,7 @@ while True:
         if ndeposito > 0:
             v_saldo += ndeposito
             v_deposito.append(ndeposito)
-            extrato = f"Saque de R$ {v_saldo:1.2f}"
+            extrato = f"Depósito de R$ {v_saldo:1.2f}"
             print(f"Depósito efetuado com sucesso no valor de R$ {ndeposito:.2f}")
         else:
             print("Depósito não realizado, digite um valor válido!!")
