@@ -32,7 +32,6 @@ while True:
             print("Depósito não realizado, digite um valor válido!!")
 
     elif v_opcao == "2":
-
         print("")
         print("******* Realizar Saque ********")
         nSaque = float(input("Digite o valor do saque: "))
@@ -44,6 +43,7 @@ while True:
             print(extrato)
         else:
             print("Limite de saque diário atingido ou saldo insuficiente!! Favor verificar!!")
+        
     elif v_opcao == "3":
         print("")
         print("********** Extrato ***********")
